@@ -8,58 +8,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="style/style.css">
     <style>
-        body{
-          background-image: url('img/astro.jpg');
-        }
-        p,h1,a{
-            font-family: 'Roboto', sans-serif;
-            background-color: #29292E; 
-            color: white;
-            border: none;
-            border-radius: 0.31rem;
-            padding: 5px;
-        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>My Blog</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Contato</a>
-            <a href="#">Sobre</a>
-        </nav>
-
-    </header>
-    <main>
-        <article>
-            <h1>Sobre o Clone</h1>
-            <img src="img/starfield.jpg" alt="" width="400px">
-            <blockquote><a href="https://bit.ly/3AFqA9F"> <cite></cite>"Seria no man's sky 2?"</a></blockquote>
+    <div id="box">
+        <header>
+            <h1>My Blog</h1>
+            <nav>
+                <a class ="noSub" href="#">Home</a>
+                <a class ="noSub" href="#">Contato</a>
+                <a class ="noSub" href="#">Sobre</a>
+            </nav>
     
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id necessitatibus minima 
-                quasi exercitationem officiis modi<br> tempore neque provident magnam, 
-                alias debitis quidem saepe dolore corporis a maxime qui dicta?  Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit. 
-                Ipsum aperiam qui debitis culpa at vero? Inventore, non aliquid ad eius praesentium eos<br> voluptatum 
-                iure fugiat? Assumenda vitae maiores laudantium molestiae.
-            </p> 
-        </article>       
-    </main>
-        <hr>
-    <footer>
-        <aside>
-            <p id="data"><strong>data: </strong>20/11/2022</p>
-            <img src="img/man.jpg" alt="" width="350px">
-            <p><strong>Nome: </strong>John Marsont</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iusto ea dolorem 
-                perferendis placeat! Animi et ex enim fugiat  <br> ipsa minus vitae nam 
-                vero nobis, numquam, perferendis nihil voluptas quos.
-            </p>
-        </aside>
+        </header>
+        <main>
+            <article>
+                <h1>Sobre o Clone</h1>
+                <div id="img">
+                    <img src="img/starfield.jpg" alt="" width="400px">
+                </div>
+                
+                <blockquote><a class ="noSub" href="https://bit.ly/3AFqA9F"> <cite></cite>"Seria no man's sky 2?"</a></blockquote>
         
-    </footer>
-
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id necessitatibus minima 
+                    quasi exercitationem officiis modi tempore neque provident magnam, 
+                    alias debitis quidem saepe dolore corporis a maxime qui dicta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ipsum aperiam qui debitis culpa at vero? Inventore, non aliquid ad eius praesentium eos voluptatum 
+                    iure fugiat? Assumenda vitae maiores laudantium molestiae.
+                </p> 
+            </article>       
+        </main>
+            
+        <footer>
+            <hr>
+            <aside>
+                <img id ="img" src="img/man.jpg" alt="" width="350px">
+                <p><strong>data: </strong>20/11/2022</p>
+                <p><strong>Nome: </strong>John Marsont</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci iusto ea dolorem 
+                    perferendis placeat! Animi et ex enim fugiat ipsa minus vitae nam 
+                    vero nobis, numquam, perferendis nihil voluptas quos.
+                </p>
+            </aside>
+            
+        </footer>
+    
+    </div>
 </body>
 </html>

@@ -1,0 +1,33 @@
+*{margin: 0;}
+body{
+    background-image: url('../img/astro.jpg');
+}
+  p,h1,a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    text-align: justify;
+    margin: 10px;
+}
+#box{
+      
+    box-sizing: border-box;
+    background-color: #29292E;
+    border-radius: 0.32rem;
+    margin: 10px 30% 0px;
+    padding: 10px;
+
+     
+      
+}
+nav,h1,#img,blockquote{
+    text-align: center;
+    margin: 15px;
+    
+}
+hr{
+    margin: 10px;
+}
+.noSub{
+    text-decoration: none;
+}
